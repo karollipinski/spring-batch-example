@@ -1,4 +1,4 @@
-package net.atos.springbatchexample.chaunks.entity;
+package net.atos.springbatchexample.chunks.entity;
 
 import lombok.Data;
 

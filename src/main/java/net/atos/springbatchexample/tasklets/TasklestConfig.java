@@ -17,11 +17,11 @@ public class TasklestConfig {
 
     private StepBuilderFactory steps;
 
-    Writer writer;
+    private Writer writer;
 
-    Processor processor;
+    private Processor processor;
 
-    Reader reader;
+    private Reader reader;
 
     @Bean
     protected Step read() {

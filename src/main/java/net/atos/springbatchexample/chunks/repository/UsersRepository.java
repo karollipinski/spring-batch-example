@@ -1,6 +1,6 @@
-package net.atos.springbatchexample.chaunks.repository;
+package net.atos.springbatchexample.chunks.repository;
 
-import net.atos.springbatchexample.chaunks.entity.Users;
+import net.atos.springbatchexample.chunks.entity.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UsersRepository extends JpaRepository<Users, Long> {
