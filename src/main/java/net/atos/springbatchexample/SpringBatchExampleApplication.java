@@ -1,15 +1,20 @@
 package net.atos.springbatchexample;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@EnableBatchProcessing
 @SpringBootApplication
-public class SpringBatchExampleApplication {
+@EnableBatchProcessing
+public class SpringBatchExampleApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBatchExampleApplication.class, args);
     }
 
+    @Override
+    public void run(String... args) throws Exception {
+
+    }
 }
